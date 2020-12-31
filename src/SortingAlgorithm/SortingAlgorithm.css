@@ -1,0 +1,25 @@
+.background-image{
+  background: linear-gradient(90deg, rgba(46,41,45,1) 0%, rgba(27,25,28,1) 32%, rgba(0,0,0,1) 100%);
+}
+
+.array-container {
+  position: absolute;
+  left: 100px;
+  display: flex;
+  justify-content: center;
+  /* top: 100px; */
+}
+
+.array-bar {
+  width: 2px;
+  display: inline-block;
+  margin: 0 1px;
+}
+
+.button {
+  background: linear-gradient(90deg, rgba(189,139,186,1) 0%, rgba(250,249,250,1) 100%, rgba(221,34,244,1) 100%);
+  margin: 10px !important;
+}
+.button:hover {
+  transform: scale(1.1);
+}
